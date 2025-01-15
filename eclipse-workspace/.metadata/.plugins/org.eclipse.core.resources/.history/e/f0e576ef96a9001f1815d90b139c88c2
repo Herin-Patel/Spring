@@ -1,0 +1,12 @@
+package com.springcore.Collections;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		ApplicationContext myContext = new ClassPathXmlApplicationContext("EmpConfig.xml");
+	}
+
+}

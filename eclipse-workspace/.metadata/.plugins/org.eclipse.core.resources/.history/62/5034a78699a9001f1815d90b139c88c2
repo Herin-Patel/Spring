@@ -1,0 +1,11 @@
+package com.springcore.References;
+
+public class B {
+	private int y;
+	
+	public B(int y){
+		this.y = y;
+	}
+	
+	
+}

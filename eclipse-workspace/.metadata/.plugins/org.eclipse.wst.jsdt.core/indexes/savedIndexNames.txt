@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\TCS\Spring Framework\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1889863019.index
+4189987107.index
+2787850272.index
+2202534369.index
+3131924779.index

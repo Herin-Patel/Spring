@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="https://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/beans/spring-beans.xsd 
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+		
+	<bean class="com.springcore.Collections" name="emp1">
+		<property name="name" value="Herin" />
+		
+		<property name="phones">
+			<list>
+				<value>9327774940</value>
+				<value>1355979852</value>
+				<value>56897</value>
+				<null/>
+			</list>
+		</property>
+		
+		<property name="addresses">
+			<set>
+				<value>Atul</value>
+				<value>Parnera</value>
+				<value>Valsad</value>
+			</set>
+		</property>
+		
+		<property name="courses">
+			<map>
+				<entry key="java" value="2month" />
+				<entry key="python" value="1.5month"/>
+				<entry key="c" value="1month"/>
+			</map>
+		</property>
+	</bean>
+	
+</beans>

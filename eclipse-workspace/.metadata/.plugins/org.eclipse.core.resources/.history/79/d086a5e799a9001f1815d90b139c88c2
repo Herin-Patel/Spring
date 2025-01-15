@@ -1,0 +1,6 @@
+package com.springcore.References;
+
+public class A {
+	private int x;
+	private B obj;
+}

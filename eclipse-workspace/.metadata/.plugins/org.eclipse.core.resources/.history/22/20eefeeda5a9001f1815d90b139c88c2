@@ -1,0 +1,9 @@
+package com.springcore.ConstructorInjection;
+
+public class Certificate {
+
+	public Certificate() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
